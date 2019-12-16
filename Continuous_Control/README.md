@@ -1,9 +1,3 @@
-[//]: # (Image References)
-
-[image1]: https://github.com/ramanakothi/Deep-Reinforcement-Learning/blob/master/Continuous_Control/images/trained_agent.gif  "Trained Agent"
-[image2]: https://github.com/ramanakothi/Deep-Reinforcement-Learning/blob/master/Continuous_Control/images/random_agent.gif "Crawler"
-
-
 # Project 2: Continuous Control
 
 ### Introduction
@@ -12,7 +6,7 @@ For this project, you will work with the [Reacher](https://github.com/Unity-Tech
 
 | Random agent             |  Trained agent |
 :-------------------------:|:-------------------------:
-![Random Agent](results/random_agent.gif)  |  ![Trained Agent](results/trained_agent.gif)
+![Random Agent](images/random_agent.gif)  |  ![Trained Agent](images/trained_agent.gif)
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
 
