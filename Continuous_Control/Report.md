@@ -66,3 +66,11 @@ Linear Layer	N x 51
 Below are the number of episodes needed to solve the environment and the evolution of rewards per episode during training.
 
 ![Trained Agent](images/Trained_agent.png) 
+
+
+## Ideas for improvement
+
+Further evolution to this project would be to train the 20-agents version. Had some issues with AWS and Udacity GPU offering. 
+Algorithms like TRPO, PPO, A3C, A2C that have been discussed in the course could potentially lead to better results.
+
+The Q-prop algorithm, which combines both off-policy and on-policy learning, could be good one to try.
