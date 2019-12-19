@@ -65,4 +65,4 @@ Linear Layer	N x 51
 
 Below are the number of episodes needed to solve the environment and the evolution of rewards per episode during training.
 
-![Random Agent](images/.gif) 
+![Random Agent](images/Screen Shot 2019-12-19 at 1.53.57 PM.png) 
