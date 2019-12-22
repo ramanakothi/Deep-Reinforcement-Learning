@@ -1,6 +1,6 @@
 ## Collaboration and competition Report
 
-![Reward Plot](https://github.com/doctorcorral/DRLND-p3-collabcomp/blob/master/images/scoresplot.png)
+![Tennis](images/tennis.gif) )
 
 ## Goal
 Goal of this project is to solve using DDPG (Deep Deterministic Policy Gradient) environment with game of tennis. Two learning agents, represented by rackets, hit a ball back and forth between each other over a net. The game is two dimensions only as the agents can only move towards or away from the net, as well as jump up. The ball and both players are always in the same vertical plane orthogonal to the net. During one episode of play, an agent earns a reward of +0.1 every time it hits the ball over the net. A negative reward of -0.01 is given if the ball hits the ground or goes out of bounds. Ideally, the two agents should learn how to keep the ball in play to earn a high total reward. Which is based in the [DDPG-Bipedal Udacity project repo](https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-bipedal).
@@ -49,9 +49,9 @@ The Actor networks utilised two fully connected layers with 256 and 128 units wi
 The Critic networks utilised two fully connected layers with 256 and 128 units with leaky_relu activation. The critic network has  an initial dimension the size of the state size plus action size.
 
 ## Plot of rewards
-![Reward Plot](https://github.com/doctorcorral/DRLND-p3-collabcomp/blob/master/images/scoresplot.png)
+![Model outcome](images/model_outcome.png)
 
-![Reward Plot](https://github.com/doctorcorral/DRLND-p3-collabcomp/blob/master/images/scoresplot.png)
+![Reward Graph](images/Model_outcome_graph.png)
 
 
 ## Ideas for Future Work
