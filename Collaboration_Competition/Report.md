@@ -55,4 +55,4 @@ The Critic networks utilised two fully connected layers with 256 and 128 units w
 
 
 ## Ideas for Future Work
-As mentioned in the course lectures, Proximal Policy Optimization (PPO) and Distributed Distributional Deterministic Policy Gradients (D4PG) methods are expected to give a performance boost.
+Should experiment similar model using stock data.
