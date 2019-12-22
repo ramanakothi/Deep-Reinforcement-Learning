@@ -42,8 +42,6 @@ In addition the Ornstein-Uhlenbeck OUNoise `scale` was defaulted to `0.1`. Ampli
 
 ### Neural Networks
 
-Actor and Critic network models were defined in [`ddpg_model.py`](https://github.com/doctorcorral/DRLND-p3-collabcomp/blob/master/ddpg_model.py).
-
 The Actor networks utilised two fully connected layers with 256 and 128 units with relu activation and tanh activation for the action space. The network has an initial dimension the same as the state size.
 
 The Critic networks utilised two fully connected layers with 256 and 128 units with leaky_relu activation. The critic network has  an initial dimension the size of the state size plus action size.
